@@ -6,19 +6,20 @@
 }
 
 .banner-container{
-    height: 80vh;
+    height: 85vh;
     display: flex;
     justify-content:space-between ;
     align-items: center;
     background-color: rgba(229, 84, 115, 0.10);
+    width: 1920px;
     
 }
 .b-img{
 
     width: 400px;
-    height: 500px;
+    height: 465px;
     margin-right: 300px;
-    margin-top: 25px;
+    margin-top: 30px;
     margin-bottom: 0px;
     
 }
