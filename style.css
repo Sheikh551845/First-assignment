@@ -16,11 +16,11 @@
 }
 .b-img{
 
-    width: 400px;
-    height: 465px;
+    width: 435px;
+    height: 590px;
     margin-right: 300px;
     margin-top: 30px;
-    margin-bottom: 0px;
+    margin-bottom: 0px auto;
     
 }
 .banner-text{
@@ -42,6 +42,7 @@
     line-height: 20px;
     padding-bottom: 20px;
     padding-top: 20px;
+    color: rgba(39, 39, 39, 0.60);
 }
 .g-btn{
     border-radius: 5px;
@@ -54,13 +55,21 @@
 .second-banner{
     text-align: center;
     padding: 80px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .sb-head-text{
     padding-bottom: 20px;
+    align-items: center;
+    text-align: center;
+}
+.sb-details-text{
+    color: rgba(39, 39, 39, 0.60);
 }
 .sb-img-container{
     display: flex;
-    margin-left: 150px;
+  
+    justify-content: space-around;
     align-items: center;
     padding-top: 50px;
 }
@@ -69,8 +78,8 @@
 .sb-img{
     width: 210px;
     height: 328px;
-    margin-bottom: 0px;
-    padding-bottom: 0px ;
+    margin-bottom: 0px auto;
+    padding-bottom: 0px auto;
     padding-top: 70px;
 }
 .sb-img1{
@@ -84,8 +93,7 @@
     background: rgba(5, 151, 160, 0.15);
     width: 350px;
     height: 400px;
-    margin-left: 50px;
-    margin-right: 50px;
+    
     
 }
 .sb-img3{
@@ -98,24 +106,24 @@
     list-style: none;
     display: flex;
     align-items: center;
+    justify-content: space-around;
     text-decoration-line: underline;
-    margin-left: 270px;
+    
     padding-top: 15px;
 }
-.m-li{
-    padding-left: 290px;
-    padding-right: 280px;
-}
+
 .optional{
+    
     padding: 50px;
-    width: 1000px;
-    height: 130px;
+    width: 1200px;
+    height: 230px;
     align-items: center;
     background-color: rgba(39, 39, 39, 0.05);
-    margin: 0px 240px 0px 240px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .op-img{
-
+   padding-top: 30px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -141,6 +149,9 @@
 .word-style{
     color: red;
 }
+.mc1-details-text{
+    color: rgba(39, 39, 39, 0.60);
+}
 .mc1-head-text{
     padding-bottom: 20px;
 }
@@ -148,6 +159,50 @@
     padding-top: 20px;
 }
 
+.main-content2{
+ padding-top: 80px;
+ margin-right: auto;
+ margin-left: auto;
+}
+.mc2-text{
+    text-align: center;
+}
+
+.mc2-d-text{
+    padding: 20px;
+    color: rgba(39, 39, 39, 0.60);
+}
+.mc2-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-content3{
+    width: 1200px;
+    height: 230px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-top: 120px;
+    background-image: url(./flower-asset/Rectangle-9.png);
+}
+.mc3-details-text{
+    
+    color: rgba(39, 39, 39, 0.60);
+}
+.mail{
+    margin-top: 50px;
+    width: 550px;
+    height: 45px;
+    padding-left: 10px;
+}
+.mc3-head{
+    margin-bottom: 20px;
+}
 
 
 
