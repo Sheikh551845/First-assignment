@@ -106,6 +106,49 @@
     padding-left: 290px;
     padding-right: 280px;
 }
+.optional{
+    padding: 50px;
+    width: 1000px;
+    height: 130px;
+    align-items: center;
+    background-color: rgba(39, 39, 39, 0.05);
+    margin: 0px 240px 0px 240px;
+}
+.op-img{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.op-li{
+    padding-top: 30px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: -50px;
+}
+.mian-container1{
+    
+   background: rgba(229, 84, 115, 0.05);
+   width: 1920px;
+   height: 550px;
+   margin-top: 80px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.word-style{
+    color: red;
+}
+.mc1-head-text{
+    padding-bottom: 20px;
+}
+#btn{
+    padding-top: 20px;
+}
+
+
 
 
 
